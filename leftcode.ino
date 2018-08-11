@@ -71,6 +71,9 @@ void left()
  digitalWrite(LM2,LOW);
  digitalWrite(RM1,LOW);
  digitalWrite(RM2,LOW);
+ 
+  delay(100);
+  
   do
  {
    analogWrite(en1,80);
