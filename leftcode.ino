@@ -64,8 +64,7 @@ void straight()
 
 void left()
 { 
-   analogWrite(en1,100);
-   analogWrite(en2,90);
+   
   delay(300);
   
   digitalWrite(LM1,LOW);  //bot will take a hault
@@ -74,6 +73,9 @@ void left()
  digitalWrite(RM2,LOW);;
   do
  {
+   analogWrite(en1,100);
+   analogWrite(en2,100);
+    
  digitalWrite(LM1,LOW);
  digitalWrite(LM2,HIGH);
  digitalWrite(RM1,HIGH);
